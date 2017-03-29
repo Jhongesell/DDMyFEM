@@ -1,0 +1,9 @@
+mpic++ me.c -o me -lm
+
+rm -f *.o
+
+lamboot -v
+
+mpirun -np 8 me
+
+lamhalt -v

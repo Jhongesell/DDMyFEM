@@ -1,0 +1,36 @@
+Réglas básicas para el desarrollo de código.
+
+Con el objetivo de estandarizar el desarrollo de código, es importante definir
+algunas reglas para evitar confusiones en la definición y descripción de clases,
+objetos, atributos y métodos. Las siguientes son algunas reglas típicas usadas 
+en códigos orientados a objetos.
+
+Nombre de clases.
+
+En general las clases son sustantivos del dominio del problema. Usar notación 
+“Geometria”, es decir escribir con mayúscula la primera letra de cada sustantivo.
+Por ejemplo: Meshes, StructuredMeshes, Equation, GeneralEquation, Domain, 
+Subdomain, etc.
+
+
+Nombre de métodos.
+
+En general los métodos de las clases son verbos del dominio del problema. Usar 
+notación “generaGeometria”, pero en este caso, la primera letra de cada nombre 
+siempre debe ser minúscula. 
+Por ejemplo: calcNodes, calcElements, solveSystem, getMatrix, setParameter, etc.
+
+
+Nombre de atributos.
+
+Todos los atributos se escriben con minúsculas. Si el atributo tiene mas de una 
+palabra, entonces usar guión bajo para separarlas.   
+Por ejemplo: delta, vector, row, column, number_of_nodes, number_of_subdomains, etc.
+
+Nombre de constantes.
+
+Todas las constantes se escriben con mayúsculas. Si el atributo tiene mas de una 
+palabra, entonces usar guión bajo para separarlas. 
+Por ejemplo: PI, WATER_DENSITY, etc.
+
+P.D. Parte del código cumple con estas convenciones, el resto del código se adaptara en un futuro proximo

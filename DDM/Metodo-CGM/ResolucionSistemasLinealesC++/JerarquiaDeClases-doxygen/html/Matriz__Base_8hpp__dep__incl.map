@@ -1,0 +1,36 @@
+<map id="Matriz_Base.hpp" name="Matriz_Base.hpp">
+<area shape="rect" id="node2" href="$Matriz_8hpp.html" title="Matriz.hpp" alt="" coords="1256,80,1339,107"/>
+<area shape="rect" id="node35" href="$Matriz__Base_8cpp.html" title="Matriz_Base.cpp" alt="" coords="1363,80,1483,107"/>
+<area shape="rect" id="node3" href="$ResuelveSistemaLineal_8hpp.html" title="ResuelveSistemaLineal.hpp" alt="" coords="875,155,1059,181"/>
+<area shape="rect" id="node25" href="$MatrizBandDisp_8hpp.html" title="MatrizBandDisp.hpp" alt="" coords="1093,229,1233,256"/>
+<area shape="rect" id="node32" href="$MatrizDensa_8hpp.html" title="MatrizDensa.hpp" alt="" coords="1329,155,1450,181"/>
+<area shape="rect" id="node34" href="$Matriz_8cpp.html" title="Matriz.cpp" alt="" coords="1475,155,1557,181"/>
+<area shape="rect" id="node4" href="$BCGM_8hpp.html" title="BCGM.hpp" alt="" coords="381,229,467,256"/>
+<area shape="rect" id="node9" href="$ResuelveInversa_8hpp.html" title="ResuelveInversa.hpp" alt="" coords="1359,229,1505,256"/>
+<area shape="rect" id="node11" href="$ResuelveGaussSeidel_8hpp.html" title="ResuelveGaussSeidel.hpp" alt="" coords="515,304,691,331"/>
+<area shape="rect" id="node14" href="$ResuelveJacobi_8hpp.html" title="ResuelveJacobi.hpp" alt="" coords="715,304,855,331"/>
+<area shape="rect" id="node17" href="$ResuelveTridiagonal_8hpp.html" title="ResuelveTridiagonal.hpp" alt="" coords="125,229,291,256"/>
+<area shape="rect" id="node19" href="$ResuelveFactorizacionLU_8hpp.html" title="ResuelveFactorizacionLU.hpp" alt="" coords="1256,304,1453,331"/>
+<area shape="rect" id="node22" href="$ResuelveFactorizacionCholeski_8hpp.html" title="ResuelveFactorizacionCholeski.hpp" alt="" coords="1826,304,2057,331"/>
+<area shape="rect" id="node5" href="$BCGM_8cpp.html" title="BCGM.cpp" alt="" coords="246,304,333,331"/>
+<area shape="rect" id="node6" href="$ResuelveCGM_8hpp.html" title="ResuelveCGM.hpp" alt="" coords="357,304,491,331"/>
+<area shape="rect" id="node7" href="$ResuelveCGMBandDisp_8hpp.html" title="ResuelveCGMBandDisp.hpp" alt="" coords="817,386,1007,413"/>
+<area shape="rect" id="node8" href="$Ejemplo_8cpp.html" title="Ejemplo.cpp" alt="" coords="999,475,1094,502"/>
+<area shape="rect" id="node10" href="$ResuelveInversa_8cpp.html" title="ResuelveInversa.cpp" alt="" coords="2133,304,2278,331"/>
+<area shape="rect" id="node12" href="$ResuelveGaussSeidelBandDisp_8hpp.html" title="ResuelveGaussSeidelBandDisp.hpp" alt="" coords="337,386,570,413"/>
+<area shape="rect" id="node13" href="$ResuelveGaussSeidelBandDisp_8cpp.html" title="ResuelveGaussSeidelBandDisp.cpp" alt="" coords="337,475,570,502"/>
+<area shape="rect" id="node15" href="$ResuelveJacobiBandDisp_8hpp.html" title="ResuelveJacobiBandDisp.hpp" alt="" coords="595,386,792,413"/>
+<area shape="rect" id="node16" href="$ResuelveJacobiBandDisp_8cpp.html" title="ResuelveJacobiBandDisp.cpp" alt="" coords="595,475,792,502"/>
+<area shape="rect" id="node18" href="$ResuelveTridiagonal_8cpp.html" title="ResuelveTridiagonal.cpp" alt="" coords="5,304,171,331"/>
+<area shape="rect" id="node20" href="$ResuelveFactorizacionLUBandDisp_8hpp.html" title="ResuelveFactorizacionLUBand\lDisp.hpp" alt="" coords="1255,379,1457,420"/>
+<area shape="rect" id="node21" href="$ResuelveFactorizacionLUBandDisp_8cpp.html" title="ResuelveFactorizacionLUBand\lDisp.cpp" alt="" coords="1255,468,1457,509"/>
+<area shape="rect" id="node23" href="$ResuelveFactorizacionCholeskiBandDisp_8hpp.html" title="ResuelveFactorizacionCholeski\lBandDisp.hpp" alt="" coords="1778,379,1985,420"/>
+<area shape="rect" id="node24" href="$ResuelveFactorizacionCholeskiBandDisp_8cpp.html" title="ResuelveFactorizacionCholeski\lBandDisp.cpp" alt="" coords="1778,468,1985,509"/>
+<area shape="rect" id="node26" href="$MatrizBandComp_8hpp.html" title="MatrizBandComp.hpp" alt="" coords="1033,304,1181,331"/>
+<area shape="rect" id="node28" href="$MatrizBand_8hpp.html" title="MatrizBand.hpp" alt="" coords="1478,304,1591,331"/>
+<area shape="rect" id="node30" href="$MatrizDispersa_8hpp.html" title="MatrizDispersa.hpp" alt="" coords="1615,304,1750,331"/>
+<area shape="rect" id="node27" href="$MatrizBandComp_8cpp.html" title="MatrizBandComp.cpp" alt="" coords="1031,386,1179,413"/>
+<area shape="rect" id="node29" href="$MatrizBand_8cpp.html" title="MatrizBand.cpp" alt="" coords="1482,386,1595,413"/>
+<area shape="rect" id="node31" href="$MatrizDispersa_8cpp.html" title="MatrizDispersa.cpp" alt="" coords="1619,386,1754,413"/>
+<area shape="rect" id="node33" href="$MatrizDensa_8cpp.html" title="MatrizDensa.cpp" alt="" coords="1529,229,1650,256"/>
+</map>

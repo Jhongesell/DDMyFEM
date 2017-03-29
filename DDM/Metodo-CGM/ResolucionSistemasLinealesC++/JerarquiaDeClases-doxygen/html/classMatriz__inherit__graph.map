@@ -1,0 +1,8 @@
+<map id="Matriz" name="Matriz">
+<area shape="rect" id="node3" href="$classMatrizBandDisp.html" title="Clase base para trabajar con matrices bandadas y dispersas. " alt="" coords="121,155,236,181"/>
+<area shape="rect" id="node7" href="$classMatrizDensa.html" title="Clase para el trabajar con matrices densas de punto flotante. " alt="" coords="260,155,356,181"/>
+<area shape="rect" id="node2" href="$classMatriz__Base.html" title="Clase base para el trabajar con matrices. " alt="" coords="195,5,290,32"/>
+<area shape="rect" id="node4" href="$classMatrizBand.html" title="MatrizBand" alt="" coords="5,229,93,256"/>
+<area shape="rect" id="node5" href="$classMatrizBandComp.html" title="MatrizBandComp" alt="" coords="117,229,240,256"/>
+<area shape="rect" id="node6" href="$classMatrizDispersa.html" title="MatrizDispersa" alt="" coords="265,229,375,256"/>
+</map>

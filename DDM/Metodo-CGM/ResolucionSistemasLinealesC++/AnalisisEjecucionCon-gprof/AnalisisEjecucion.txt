@@ -1,0 +1,1331 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 23.25      0.60     0.60 40656734     0.00     0.00  MatrizBandComp::retorna(int, int)
+ 14.85      0.98     0.38 27627674     0.00     0.00  MatrizBandComp::retornaNumeroColumna(int, int)
+ 12.89      1.31     0.33 91126931     0.00     0.00  Vector::retorna(int)
+ 10.94      1.59     0.28       31     0.01     0.03  ResuelveJacobiBandDisp::resuelve()
+  8.60      1.81     0.22       31     0.01     0.03  ResuelveGaussSeidelBandDisp::resuelve()
+  7.81      2.01     0.20    24815     0.00     0.00  MatrizBandComp::multiplica(Vector*, Vector*)
+  5.47      2.15     0.14  9247060     0.00     0.00  MatrizBandComp::retornaNumeroColumnasBanda(int)
+  3.13      2.23     0.08 40867129     0.00     0.00  Vector::asigna(int, double)
+  3.13      2.31     0.08    74359     0.00     0.00  Vector::multiplica(double)
+  2.73      2.38     0.07    49571     0.00     0.00  Vector::suma(Vector*)
+  1.95      2.43     0.05    49607     0.00     0.00  Vector::productoPunto(Vector*)
+  1.95      2.48     0.05   396900     0.00     0.00  Vector_Base::columnas()
+  0.78      2.50     0.02    99209     0.00     0.00  Vector::copia(Vector*)
+  0.78      2.52     0.02      127     0.00     0.00  Vector::visualiza(int, int, int)
+  0.39      2.53     0.01 18647321     0.00     0.00  Matriz_Base::renglones()
+  0.39      2.54     0.01    24788     0.00     0.00  Vector::resta(Vector*)
+  0.39      2.55     0.01       62     0.00     0.00  Vector::Vector(int, char const*)
+  0.39      2.56     0.01       30     0.00     0.00  MatrizBandComp::solicitaMemoria(int, int, int)
+  0.20      2.56     0.01    13890     0.00     0.00  MatrizBandComp::asigna(int, int, double)
+  0.00      2.56     0.00  1925182     0.00     0.00  Matriz_Base::columnas()
+  0.00      2.56     0.00   945500     0.00     0.00  Ctrl_visualizacion::visualiza_n(double)
+  0.00      2.56     0.00    55474     0.00     0.00  MatrizDispersa::retornaNumeroColumna(int, int)
+  0.00      2.56     0.00    49607     0.00     0.00  ResuelveCGM::productoPunto(Vector*, Vector*)
+  0.00      2.56     0.00    34433     0.00     0.00  Vector::esCadaEntradaMasPequeno(double)
+  0.00      2.56     0.00    25032     0.00     0.00  MatrizBand::retornaNumeroColumna(int, int)
+  0.00      2.56     0.00    24819     0.00     0.00  ResuelveCGM::multiplica(Vector*, Vector*)
+  0.00      2.56     0.00    23199     0.00     0.00  MatrizDispersa::asigna(int, int, double)
+  0.00      2.56     0.00    18891     0.00     0.00  Ctrl_visualizacion::visualiza_e(double)
+  0.00      2.56     0.00    18686     0.00     0.00  MatrizDispersa::retorna(int, int)
+  0.00      2.56     0.00    18554     0.00     0.00  MatrizDispersa::retornaNumeroColumnasBanda(int)
+  0.00      2.56     0.00    18491     0.00     0.00  MatrizDispersa::retornaValorColumna(int, int)
+  0.00      2.56     0.00     4740     0.00     0.00  Ctrl_visualizacion::visualiza(int)
+  0.00      2.56     0.00     4620     0.00     0.00  MatrizBandComp::compactaMatriz(int)
+  0.00      2.56     0.00      876     0.00     0.00  MatrizBand::retorna(int, int)
+  0.00      2.56     0.00      360     0.00     0.00  MatrizBandDisp::tamanoBanda()
+  0.00      2.56     0.00      312     0.00     0.00  Vector_Base::asignaNombre(char const*)
+  0.00      2.56     0.00      312     0.00     0.00  Vector_Base::Vector_Base()
+  0.00      2.56     0.00      312     0.00     0.00  Vector_Base::~Vector_Base()
+  0.00      2.56     0.00      312     0.00     0.00  Vector::liberaMemoria(int)
+  0.00      2.56     0.00      312     0.00     0.00  Vector::solicitaMemoria(int, double)
+  0.00      2.56     0.00      312     0.00     0.00  Vector::~Vector()
+  0.00      2.56     0.00      252     0.00     0.00  MatrizBand::retornaNumeroColumnasBanda(int)
+  0.00      2.56     0.00      250     0.00     0.00  Vector::Vector(int)
+  0.00      2.56     0.00      127     0.00     0.00  ResuelveSistemaLineal::informacionMetodo()
+  0.00      2.56     0.00      127     0.00     0.00  ResuelveSistemaLineal::ResuelveSistemaLineal()
+  0.00      2.56     0.00      127     0.00     0.00  Vector::inicializa(double)
+  0.00      2.56     0.00      127     0.00     0.00  Vector::visualizaInformacion()
+  0.00      2.56     0.00       96     0.00     0.00  Matriz_Base::matrizCuadrada()
+  0.00      2.56     0.00       66     0.00     0.00  Matriz_Base::asignaNombre(char const*)
+  0.00      2.56     0.00       66     0.00     0.00  Matriz_Base::Matriz_Base()
+  0.00      2.56     0.00       66     0.00     0.00  Matriz_Base::~Matriz_Base()
+  0.00      2.56     0.00       66     0.00     0.00  Matriz::Matriz()
+  0.00      2.56     0.00       66     0.00     0.00  Matriz::~Matriz()
+  0.00      2.56     0.00       65     0.00     0.00  MatrizBandDisp::MatrizBandDisp()
+  0.00      2.56     0.00       65     0.00     0.00  MatrizBandDisp::~MatrizBandDisp()
+  0.00      2.56     0.00       54     0.00     0.00  MatrizDensa::retorna(int, int)
+  0.00      2.56     0.00       34     0.00     0.00  MatrizDispersa::liberaMemoria()
+  0.00      2.56     0.00       34     0.00     0.00  MatrizDispersa::solicitaMemoria(int, int, int)
+  0.00      2.56     0.00       34     0.00     0.00  MatrizDispersa::MatrizDispersa(int, int, int, char const*)
+  0.00      2.56     0.00       34     0.00     0.00  MatrizDispersa::~MatrizDispersa()
+  0.00      2.56     0.00       34     0.00     0.00  Matriz::copia(Matriz*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveCGM::tamano()
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveCGM::ResuelveCGM(Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ProductoPunto::ProductoPunto()
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveJacobi::ResuelveJacobi(Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveGaussSeidel::ResuelveGaussSeidel(Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveFactorizacionLU::ResuelveFactorizacionLU(Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveFactorizacionLUBandDisp::resuelve()
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveFactorizacionLUBandDisp::factoriza()
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*)
+  0.00      2.56     0.00       31     0.00     0.00  ResuelveFactorizacionLUBandDisp::~ResuelveFactorizacionLUBandDisp()
+  0.00      2.56     0.00       31     0.00     0.02  BCGM::resuelve()
+  0.00      2.56     0.00       31     0.00     0.00  BCGM::BCGM(MultOp&, ProductoPunto&, int, double)
+  0.00      2.56     0.00       31     0.00     0.00  Matriz::maximoTamanoColumnaOcupado()
+  0.00      2.56     0.00       31     0.00     0.00  MultOp::MultOp()
+  0.00      2.56     0.00       31     0.00     0.00  Vector::esVectorCero()
+  0.00      2.56     0.00       31     0.00     0.00  Vector::resta(Vector*, Vector*)
+  0.00      2.56     0.00       30     0.00     0.00  MatrizDensa::asigna(int, int, double)
+  0.00      2.56     0.00       30     0.00     0.00  Matriz_Base::visualizaInformacion()
+  0.00      2.56     0.00       30     0.00     0.00  MatrizBandComp::liberaMemoria()
+  0.00      2.56     0.00       30     0.00     0.00  MatrizBandComp::visualizaMatricesInternas()
+  0.00      2.56     0.00       30     0.00     0.00  MatrizBandComp::MatrizBandComp(int, int, int, char const*)
+  0.00      2.56     0.00       30     0.00     0.00  MatrizBandComp::~MatrizBandComp()
+  0.00      2.56     0.00       30     0.00     0.00  Matriz::entradasDistintasCero()
+  0.00      2.56     0.00       30     0.00     0.00  Matriz::visualiza(int)
+  0.00      2.56     0.00        7     0.00     0.00  MatrizBand::asigna(int, int, double)
+  0.00      2.56     0.00        4     0.00     0.00  MatrizBand::multiplica(Vector*, Vector*)
+  0.00      2.56     0.00        3     0.00     0.00  Matriz::convierte(double*, int, int)
+  0.00      2.56     0.00        1     0.00     0.08  Ejem1()
+  0.00      2.56     0.00        1     0.00     2.48  Ejem2()
+  0.00      2.56     0.00        1     0.00     0.00  MatrizBand::liberaMemoria()
+  0.00      2.56     0.00        1     0.00     0.00  MatrizBand::solicitaMemoria(int, int, int)
+  0.00      2.56     0.00        1     0.00     0.00  MatrizBand::MatrizBand(int, int, int, char const*)
+  0.00      2.56     0.00        1     0.00     0.00  MatrizBand::~MatrizBand()
+  0.00      2.56     0.00        1     0.00     0.00  MatrizDensa::multiplica(Vector*, Vector*)
+  0.00      2.56     0.00        1     0.00     0.00  MatrizDensa::liberaMemoria()
+  0.00      2.56     0.00        1     0.00     0.00  MatrizDensa::solicitaMemoria(int, int)
+  0.00      2.56     0.00        1     0.00     0.00  MatrizDensa::MatrizDensa(int, int, char const*)
+  0.00      2.56     0.00        1     0.00     0.00  MatrizDensa::~MatrizDensa()
+  0.00      2.56     0.00        1     0.00     0.00  Matriz_Base::mismaDimension(Matriz_Base*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveInversa::invierte(Matriz*, Matriz*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveInversa::resuelve()
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveInversa::ResuelveInversa(Matriz*, Vector*, Vector*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveInversa::~ResuelveInversa()
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveTridiagonal::resuelve()
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveFactorizacionCholeski::ResuelveFactorizacionCholeski(Vector*, Vector*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveFactorizacionCholeskiBandDisp::resuelve()
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveFactorizacionCholeskiBandDisp::factoriza()
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveFactorizacionCholeskiBandDisp::ResuelveFactorizacionCholeskiBandDisp(MatrizBandDisp*, Vector*, Vector*)
+  0.00      2.56     0.00        1     0.00     0.00  ResuelveFactorizacionCholeskiBandDisp::~ResuelveFactorizacionCholeskiBandDisp()
+  0.00      2.56     0.00        1     0.00     0.00  Matriz::inicializaDiagonal(double)
+  0.00      2.56     0.00        1     0.00     0.00  Vector::convierte(double*, int)
+  0.00      2.56     0.00                             MatrizBand::inicializa(double)
+  0.00      2.56     0.00                             MatrizBand::multiplica(MatrizBand*, MatrizBand*)
+  0.00      2.56     0.00                             MatrizBand::multiplica(double)
+  0.00      2.56     0.00                             MatrizBand::retornaValorColumna(int, int)
+  0.00      2.56     0.00                             MatrizBand::visualizaMatricesInternas()
+  0.00      2.56     0.00                             MatrizDensa::inicializa(double)
+  0.00      2.56     0.00                             MatrizDensa::multiplica(MatrizDensa*, MatrizDensa*)
+  0.00      2.56     0.00                             MatrizDensa::multiplica(double)
+  0.00      2.56     0.00                             MatrizDensa::retornaValorColumna(int, int)
+  0.00      2.56     0.00                             MatrizDensa::retornaNumeroColumna(int, int)
+  0.00      2.56     0.00                             MatrizDensa::retornaNumeroColumnasBanda(int)
+  0.00      2.56     0.00                             Matriz_Base::faltaMemoria()
+  0.00      2.56     0.00                             Matriz_Base::visualizaTamano()
+  0.00      2.56     0.00                             Matriz_Base::tamano()
+  0.00      2.56     0.00                             MatrizBandComp::inicializa(double)
+  0.00      2.56     0.00                             MatrizBandComp::multiplica(MatrizBandComp*, MatrizBandComp*)
+  0.00      2.56     0.00                             MatrizBandComp::multiplica(double)
+  0.00      2.56     0.00                             MatrizBandComp::retornaValorColumna(int, int)
+  0.00      2.56     0.00                             MatrizDispersa::inicializa(double)
+  0.00      2.56     0.00                             MatrizDispersa::multiplica(Vector*, Vector*)
+  0.00      2.56     0.00                             MatrizDispersa::multiplica(MatrizDispersa*, MatrizDispersa*)
+  0.00      2.56     0.00                             MatrizDispersa::multiplica(double)
+  0.00      2.56     0.00                             MatrizDispersa::visualizaMatricesInternas()
+  0.00      2.56     0.00                             ResuelveInversa::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             ResuelveTridiagonal::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             ResuelveSistemaLineal::error(char const*)
+  0.00      2.56     0.00                             ResuelveJacobiBandDisp::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             ResuelveGaussSeidelBandDisp::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             ResuelveFactorizacionLUBandDisp::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             ResuelveFactorizacionCholeskiBandDisp::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             BCGM::resuelve(Vector*, Vector*)
+  0.00      2.56     0.00                             Matriz::transpuesta(Matriz*)
+  0.00      2.56     0.00                             Matriz::retornaVector(Vector*)
+  0.00      2.56     0.00                             Matriz::suma(Matriz*)
+  0.00      2.56     0.00                             Matriz::suma(Matriz*, Matriz*)
+  0.00      2.56     0.00                             Matriz::resta(Matriz*)
+  0.00      2.56     0.00                             Matriz::resta(Matriz*, Matriz*)
+  0.00      2.56     0.00                             Matriz::iguales(Matriz*, double)
+  0.00      2.56     0.00                             Matriz::convierte(double**, int, int)
+  0.00      2.56     0.00                             Matriz::convierte(int, Vector*)
+  0.00      2.56     0.00                             Matriz::convierte(int, int, double*)
+  0.00      2.56     0.00                             Vector::productoPunto()
+  0.00      2.56     0.00                             Vector::suma(Vector*, Vector*)
+  0.00      2.56     0.00                             Vector::normaInf()
+  0.00      2.56     0.00                             non-virtual thunk to ResuelveCGM::multiplica(Vector*, Vector*)
+  0.00      2.56     0.00                             non-virtual thunk to ResuelveCGM::tamano()
+  0.00      2.56     0.00                             non-virtual thunk to ResuelveCGM::productoPunto(Vector*, Vector*)
+  0.00      2.56     0.00                             __do_global_dtors_aux
+  0.00      2.56     0.00                             __do_global_dtors_aux_fini_array_entry
+  0.00      2.56     0.00                             __frame_dummy_init_array_entry
+  0.00      2.56     0.00                             __gmon_start__
+  0.00      2.56     0.00                             __libc_csu_fini
+  0.00      2.56     0.00                             __libc_csu_init
+  0.00      2.56     0.00                             _fini
+  0.00      2.56     0.00                             _init
+  0.00      2.56     0.00                             _start
+  0.00      2.56     0.00                             atexit
+  0.00      2.56     0.00                             data_start
+  0.00      2.56     0.00                             deregister_tm_clones
+  0.00      2.56     0.00                             etext
+  0.00      2.56     0.00                             frame_dummy
+  0.00      2.56     0.00                             main
+  0.00      2.56     0.00                             register_tm_clones
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.39% of 2.56 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    2.56                 main [1]
+                0.00    2.48       1/1           Ejem2() [2]
+                0.00    0.08       1/1           Ejem1() [14]
+-----------------------------------------------
+                0.00    2.48       1/1           main [1]
+[2]     96.7    0.00    2.48       1         Ejem2() [2]
+                0.27    0.65      30/31          ResuelveJacobiBandDisp::resuelve() [3]
+                0.21    0.65      30/31          ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.63      30/31          BCGM::resuelve() [5]
+                0.02    0.00     120/127         Vector::visualiza(int, int, int) [22]
+                0.00    0.01      30/34          Matriz::copia(Matriz*) [23]
+                0.00    0.01      30/30          MatrizBandComp::MatrizBandComp(int, int, int, char const*) [26]
+                0.01    0.00      60/62          Vector::Vector(int, char const*) [24]
+                0.01    0.00   13890/13890       MatrizBandComp::asigna(int, int, double) [28]
+                0.00    0.00      30/31          ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00      30/37820265     Matriz::visualiza(int) <cycle 1> [108]
+                0.00    0.00      60/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00     120/127         Vector::inicializa(double) [75]
+                0.00    0.00     120/127         ResuelveSistemaLineal::informacionMetodo() [73]
+                0.00    0.00      60/312         Vector::~Vector() [70]
+                0.00    0.00      30/30          MatrizBandComp::visualizaMatricesInternas() [106]
+                0.00    0.00      30/31          ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*) [93]
+                0.00    0.00      30/31          ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*) [97]
+                0.00    0.00      30/31          ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*) [95]
+                0.00    0.00      30/34          MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+                0.00    0.00      30/31          ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*) [98]
+                0.00    0.00      30/30          MatrizBandComp::~MatrizBandComp() [107]
+                0.00    0.00      30/34          MatrizDispersa::~MatrizDispersa() [89]
+                0.00    0.00      30/31          ResuelveFactorizacionLUBandDisp::~ResuelveFactorizacionLUBandDisp() [99]
+-----------------------------------------------
+                0.01    0.02       1/31          Ejem1() [14]
+                0.27    0.65      30/31          Ejem2() [2]
+[3]     37.3    0.28    0.68      31         ResuelveJacobiBandDisp::resuelve() [3]
+                0.29    0.00 18478640/37820265     MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                0.19    0.00 13844580/27627674     MatrizBandComp::retornaNumeroColumna(int, int) [8]
+                0.10    0.00 27747704/91126931     Vector::retorna(int) [9]
+                0.07    0.00 4634060/9247060     MatrizBandComp::retornaNumeroColumnasBanda(int) [12]
+                0.02    0.00 9268474/40867129     Vector::asigna(int, double) [19]
+                0.01    0.00 9326223/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00   17582/25032       MatrizBand::retornaNumeroColumna(int, int) [55]
+                0.00    0.00     590/876         MatrizBand::retorna(int, int) [63]
+                0.00    0.00     177/252         MatrizBand::retornaNumeroColumnasBanda(int) [71]
+                0.00    0.00      31/96          Matriz_Base::matrizCuadrada() [77]
+                0.00    0.00      31/250         Vector::Vector(int) [72]
+                0.00    0.00      31/312         Vector::~Vector() [70]
+-----------------------------------------------
+                0.01    0.02       1/31          Ejem1() [14]
+                0.21    0.65      30/31          Ejem2() [2]
+[4]     34.8    0.22    0.67      31         ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.29    0.00 18396094/37820265     MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                0.19    0.00 13783094/27627674     MatrizBandComp::retornaNumeroColumna(int, int) [8]
+                0.10    0.00 27622494/91126931     Vector::retorna(int) [9]
+                0.07    0.00 4613000/9247060     MatrizBandComp::retornaNumeroColumnasBanda(int) [12]
+                0.02    0.00 9226150/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00 9282137/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00    7450/25032       MatrizBand::retornaNumeroColumna(int, int) [55]
+                0.00    0.00     250/876         MatrizBand::retorna(int, int) [63]
+                0.00    0.00      75/252         MatrizBand::retornaNumeroColumnasBanda(int) [71]
+                0.00    0.00      31/96          Matriz_Base::matrizCuadrada() [77]
+                0.00    0.00      31/250         Vector::Vector(int) [72]
+                0.00    0.00      31/312         Vector::~Vector() [70]
+                0.00    0.00       0/0           ResuelveSistemaLineal::error(char const*) [150]
+-----------------------------------------------
+                0.00    0.02       1/31          Ejem1() [14]
+                0.00    0.63      30/31          Ejem2() [2]
+[5]     25.5    0.00    0.65      31         BCGM::resuelve() [5]
+                0.00    0.26   24819/24819       ResuelveCGM::multiplica(Vector*, Vector*) [10]
+                0.07    0.04   49571/49571       Vector::suma(Vector*) [13]
+                0.00    0.08   49607/49607       ResuelveCGM::productoPunto(Vector*, Vector*) [15]
+                0.02    0.06   99209/99209       Vector::copia(Vector*) [17]
+                0.08    0.00   74359/74359       Vector::multiplica(double) [18]
+                0.01    0.02   24788/24788       Vector::resta(Vector*) [21]
+                0.00    0.00      31/31          Vector::resta(Vector*, Vector*) [30]
+                0.00    0.00      31/31          ResuelveCGM::tamano() [39]
+                0.00    0.00   34433/34433       Vector::esCadaEntradaMasPequeno(double) [54]
+                0.00    0.00     155/250         Vector::Vector(int) [72]
+                0.00    0.00     155/312         Vector::~Vector() [70]
+                0.00    0.00      31/31          Vector::esVectorCero() [102]
+                0.00    0.00       0/127         Vector::inicializa(double) [75]
+-----------------------------------------------
+[6]     23.2    0.60    0.00 37820265+2836590 <cycle 1 as a whole> [6]
+                0.60    0.00 40656734             MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                0.00    0.00      31             Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                0.00    0.00      30             Matriz::entradasDistintasCero() <cycle 1> [34]
+                0.00    0.00      30             Matriz_Base::visualizaInformacion() <cycle 1> [104]
+                0.00    0.00      30             Matriz::visualiza(int) <cycle 1> [108]
+-----------------------------------------------
+                              945500             Matriz::visualiza(int) <cycle 1> [108]
+                              945500             Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                              945500             Matriz::entradasDistintasCero() <cycle 1> [34]
+                0.01    0.00  945500/37820265     Matriz::copia(Matriz*) [23]
+                0.29    0.00 18396094/37820265     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.29    0.00 18478640/37820265     ResuelveJacobiBandDisp::resuelve() [3]
+[7]     23.2    0.60    0.00 40656734         MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                                   0             Matriz::visualiza(int) <cycle 1> [108]
+-----------------------------------------------
+                0.19    0.00 13783094/27627674     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.19    0.00 13844580/27627674     ResuelveJacobiBandDisp::resuelve() [3]
+[8]     14.8    0.38    0.00 27627674         MatrizBandComp::retornaNumeroColumna(int, int) [8]
+-----------------------------------------------
+                0.00    0.00       9/91126931     MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       9/91126931     ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00      11/91126931     ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00    1192/91126931     MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00    9306/91126931     Vector::resta(Vector*, Vector*) [30]
+                0.00    0.00   18581/91126931     ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.02    0.00 4469849/91126931     Vector::resta(Vector*) [21]
+                0.03    0.00 8939585/91126931     Vector::suma(Vector*) [13]
+                0.03    0.00 8944351/91126931     Vector::productoPunto(Vector*) [16]
+                0.05    0.00 13373840/91126931     MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.10    0.00 27622494/91126931     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.10    0.00 27747704/91126931     ResuelveJacobiBandDisp::resuelve() [3]
+[9]     12.9    0.33    0.00 91126931         Vector::retorna(int) [9]
+-----------------------------------------------
+                0.00    0.26   24819/24819       BCGM::resuelve() [5]
+[10]    10.3    0.00    0.26   24819         ResuelveCGM::multiplica(Vector*, Vector*) [10]
+                0.20    0.06   24815/24815       MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.00    0.00       4/4           MatrizBand::multiplica(Vector*, Vector*) [31]
+-----------------------------------------------
+                0.20    0.06   24815/24815       ResuelveCGM::multiplica(Vector*, Vector*) [10]
+[11]    10.3    0.20    0.06   24815         MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.05    0.00 13373840/91126931     Vector::retorna(int) [9]
+                0.01    0.00 4474490/40867129     Vector::asigna(int, double) [19]
+                0.01    0.00   49630/396900      Vector_Base::columnas() [20]
+                0.00    0.00   24815/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00   24815/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.07    0.00 4613000/9247060     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.07    0.00 4634060/9247060     ResuelveJacobiBandDisp::resuelve() [3]
+[12]     5.5    0.14    0.00 9247060         MatrizBandComp::retornaNumeroColumnasBanda(int) [12]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.07    0.04   49571/49571       BCGM::resuelve() [5]
+[13]     4.5    0.07    0.04   49571         Vector::suma(Vector*) [13]
+                0.03    0.00 8939585/91126931     Vector::retorna(int) [9]
+                0.01    0.00   99142/396900      Vector_Base::columnas() [20]
+-----------------------------------------------
+                0.00    0.08       1/1           main [1]
+[14]     3.3    0.00    0.08       1         Ejem1() [14]
+                0.01    0.02       1/31          ResuelveJacobiBandDisp::resuelve() [3]
+                0.01    0.02       1/31          ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.02       1/31          BCGM::resuelve() [5]
+                0.00    0.00       4/34          Matriz::copia(Matriz*) [23]
+                0.00    0.00       7/127         Vector::visualiza(int, int, int) [22]
+                0.00    0.00       2/62          Vector::Vector(int, char const*) [24]
+                0.00    0.00       1/31          ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00       1/1           ResuelveInversa::resuelve() [35]
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00       1/1           ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00       1/1           ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*) [40]
+                0.00    0.00       1/1           Vector::convierte(double*, int) [42]
+                0.00    0.00       7/127         Vector::inicializa(double) [75]
+                0.00    0.00       7/127         ResuelveSistemaLineal::informacionMetodo() [73]
+                0.00    0.00       4/34          MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+                0.00    0.00       4/34          MatrizDispersa::~MatrizDispersa() [89]
+                0.00    0.00       3/3           Matriz::convierte(double*, int, int) [110]
+                0.00    0.00       3/312         Vector::~Vector() [70]
+                0.00    0.00       1/250         Vector::Vector(int) [72]
+                0.00    0.00       1/1           MatrizBand::MatrizBand(int, int, int, char const*) [113]
+                0.00    0.00       1/31          ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*) [93]
+                0.00    0.00       1/31          ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*) [97]
+                0.00    0.00       1/31          ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*) [95]
+                0.00    0.00       1/31          ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*) [98]
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::ResuelveFactorizacionCholeskiBandDisp(MatrizBandDisp*, Vector*, Vector*) [122]
+                0.00    0.00       1/1           ResuelveInversa::ResuelveInversa(Matriz*, Vector*, Vector*) [119]
+                0.00    0.00       1/1           MatrizBand::~MatrizBand() [114]
+                0.00    0.00       1/1           ResuelveInversa::~ResuelveInversa() [120]
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::~ResuelveFactorizacionCholeskiBandDisp() [123]
+                0.00    0.00       1/31          ResuelveFactorizacionLUBandDisp::~ResuelveFactorizacionLUBandDisp() [99]
+-----------------------------------------------
+                0.00    0.08   49607/49607       BCGM::resuelve() [5]
+[15]     3.2    0.00    0.08   49607         ResuelveCGM::productoPunto(Vector*, Vector*) [15]
+                0.05    0.03   49607/49607       Vector::productoPunto(Vector*) [16]
+-----------------------------------------------
+                0.05    0.03   49607/49607       ResuelveCGM::productoPunto(Vector*, Vector*) [15]
+[16]     3.2    0.05    0.03   49607         Vector::productoPunto(Vector*) [16]
+                0.03    0.00 8944351/91126931     Vector::retorna(int) [9]
+-----------------------------------------------
+                0.02    0.06   99209/99209       BCGM::resuelve() [5]
+[17]     3.1    0.02    0.06   99209         Vector::copia(Vector*) [17]
+                0.04    0.00 17888589/40867129     Vector::asigna(int, double) [19]
+                0.03    0.00  198418/396900      Vector_Base::columnas() [20]
+-----------------------------------------------
+                0.08    0.00   74359/74359       BCGM::resuelve() [5]
+[18]     3.1    0.08    0.00   74359         Vector::multiplica(double) [18]
+-----------------------------------------------
+                0.00    0.00       3/40867129     MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       3/40867129     Vector::convierte(double*, int) [42]
+                0.00    0.00       5/40867129     ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00       6/40867129     ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00      12/40867129     MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00      60/40867129     Ejem2() [2]
+                0.00    0.00    9337/40867129     ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.01    0.00 4474490/40867129     MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.02    0.00 9226150/40867129     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.02    0.00 9268474/40867129     ResuelveJacobiBandDisp::resuelve() [3]
+                0.04    0.00 17888589/40867129     Vector::copia(Vector*) [17]
+[19]     3.1    0.08    0.00 40867129         Vector::asigna(int, double) [19]
+-----------------------------------------------
+                0.00    0.00       2/396900      MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       8/396900      MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00     124/396900      Vector::resta(Vector*, Vector*) [30]
+                0.01    0.00   49576/396900      Vector::resta(Vector*) [21]
+                0.01    0.00   49630/396900      MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.01    0.00   99142/396900      Vector::suma(Vector*) [13]
+                0.03    0.00  198418/396900      Vector::copia(Vector*) [17]
+[20]     2.0    0.05    0.00  396900         Vector_Base::columnas() [20]
+-----------------------------------------------
+                0.01    0.02   24788/24788       BCGM::resuelve() [5]
+[21]     1.3    0.01    0.02   24788         Vector::resta(Vector*) [21]
+                0.02    0.00 4469849/91126931     Vector::retorna(int) [9]
+                0.01    0.00   49576/396900      Vector_Base::columnas() [20]
+-----------------------------------------------
+                0.00    0.00       7/127         Ejem1() [14]
+                0.02    0.00     120/127         Ejem2() [2]
+[22]     0.8    0.02    0.00     127         Vector::visualiza(int, int, int) [22]
+                0.00    0.00   18621/18891       Ctrl_visualizacion::visualiza_e(double) [57]
+                0.00    0.00     127/127         Vector::visualizaInformacion() [76]
+-----------------------------------------------
+                0.00    0.00       4/34          Ejem1() [14]
+                0.00    0.01      30/34          Ejem2() [2]
+[23]     0.6    0.00    0.01      34         Matriz::copia(Matriz*) [23]
+                0.01    0.00  945500/37820265     MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                0.00    0.00   13918/23199       MatrizDispersa::asigna(int, int, double) [56]
+                0.00    0.00      36/876         MatrizBand::retorna(int, int) [63]
+-----------------------------------------------
+                0.00    0.00       2/62          Ejem1() [14]
+                0.01    0.00      60/62          Ejem2() [2]
+[24]     0.4    0.01    0.00      62         Vector::Vector(int, char const*) [24]
+                0.00    0.00      62/312         Vector_Base::Vector_Base() [66]
+                0.00    0.00      62/312         Vector::solicitaMemoria(int, double) [69]
+                0.00    0.00      62/312         Vector_Base::asignaNombre(char const*) [65]
+-----------------------------------------------
+                0.01    0.00      30/30          MatrizBandComp::MatrizBandComp(int, int, int, char const*) [26]
+[25]     0.4    0.01    0.00      30         MatrizBandComp::solicitaMemoria(int, int, int) [25]
+                0.00    0.00       0/0           Matriz_Base::faltaMemoria() [136]
+-----------------------------------------------
+                0.00    0.01      30/30          Ejem2() [2]
+[26]     0.4    0.00    0.01      30         MatrizBandComp::MatrizBandComp(int, int, int, char const*) [26]
+                0.01    0.00      30/30          MatrizBandComp::solicitaMemoria(int, int, int) [25]
+                0.00    0.00      30/65          MatrizBandDisp::MatrizBandDisp() [83]
+                0.00    0.00      30/66          Matriz_Base::asignaNombre(char const*) [78]
+-----------------------------------------------
+                0.00    0.00       1/18647321     ResuelveInversa::resuelve() [35]
+                0.00    0.00       1/18647321     ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       1/18647321     ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00       1/18647321     Matriz_Base::mismaDimension(Matriz_Base*) [43]
+                0.00    0.00       4/18647321     MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00       5/18647321     MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       7/18647321     ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00      16/18647321     ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00      31/18647321     ResuelveCGM::tamano() [39]
+                0.00    0.00      31/18647321     ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00    4680/18647321     Matriz::entradasDistintasCero() <cycle 1> [34]
+                0.00    0.00    4684/18647321     Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                0.00    0.00    4684/18647321     ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00   24815/18647321     MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.00    0.00 9282137/18647321     ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.01    0.00 9326223/18647321     ResuelveJacobiBandDisp::resuelve() [3]
+[27]     0.4    0.01    0.00 18647321         Matriz_Base::renglones() [27]
+-----------------------------------------------
+                0.01    0.00   13890/13890       Ejem2() [2]
+[28]     0.2    0.01    0.00   13890         MatrizBandComp::asigna(int, int, double) [28]
+                0.00    0.00    4620/4620        MatrizBandComp::compactaMatriz(int) [62]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+                0.00    0.00       0/0           Matriz_Base::faltaMemoria() [136]
+                0.00    0.00       0/37820265     Matriz::visualiza(int) <cycle 1> [108]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[29]     0.0    0.00    0.00      31         ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00   18581/91126931     Vector::retorna(int) [9]
+                0.00    0.00    9337/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00      31/31          ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00      31/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00   27732/55474       MatrizDispersa::retornaNumeroColumna(int, int) [53]
+                0.00    0.00    9275/18554       MatrizDispersa::retornaNumeroColumnasBanda(int) [59]
+                0.00    0.00    9244/18491       MatrizDispersa::retornaValorColumna(int, int) [60]
+                0.00    0.00    4684/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00      31/250         Vector::Vector(int) [72]
+                0.00    0.00      31/312         Vector::~Vector() [70]
+-----------------------------------------------
+                0.00    0.00      31/31          BCGM::resuelve() [5]
+[30]     0.0    0.00    0.00      31         Vector::resta(Vector*, Vector*) [30]
+                0.00    0.00    9306/91126931     Vector::retorna(int) [9]
+                0.00    0.00     124/396900      Vector_Base::columnas() [20]
+-----------------------------------------------
+                0.00    0.00       4/4           ResuelveCGM::multiplica(Vector*, Vector*) [10]
+[31]     0.0    0.00    0.00       4         MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00    1192/91126931     Vector::retorna(int) [9]
+                0.00    0.00       8/396900      Vector_Base::columnas() [20]
+                0.00    0.00      12/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00       4/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00       4/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveFactorizacionLUBandDisp::resuelve() [29]
+[32]     0.0    0.00    0.00      31         ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00    4684/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00   27732/55474       MatrizDispersa::retornaNumeroColumna(int, int) [53]
+                0.00    0.00   13897/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00    9275/18554       MatrizDispersa::retornaNumeroColumnasBanda(int) [59]
+                0.00    0.00    9244/18491       MatrizDispersa::retornaValorColumna(int, int) [60]
+                0.00    0.00    9244/23199       MatrizDispersa::asigna(int, int, double) [56]
+                0.00    0.00      31/96          Matriz_Base::matrizCuadrada() [77]
+-----------------------------------------------
+                                  30             Matriz_Base::visualizaInformacion() <cycle 1> [104]
+                0.00    0.00       1/37820265     ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*) [40]
+[33]     0.0    0.00    0.00      31         Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                0.00    0.00    4684/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00  950162/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00       9/18686       MatrizDispersa::retorna(int, int) [58]
+                              945500             MatrizBandComp::retorna(int, int) <cycle 1> [7]
+-----------------------------------------------
+                                  30             Matriz_Base::visualizaInformacion() <cycle 1> [104]
+[34]     0.0    0.00    0.00      30         Matriz::entradasDistintasCero() <cycle 1> [34]
+                0.00    0.00    4680/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00  950150/1925182     Matriz_Base::columnas() [51]
+                              945500             MatrizBandComp::retorna(int, int) <cycle 1> [7]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[35]     0.0    0.00    0.00       1         ResuelveInversa::resuelve() [35]
+                0.00    0.00       1/1           MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       1/1           ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00       1/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00       1/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00       1/1           MatrizDensa::MatrizDensa(int, int, char const*) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::resuelve() [35]
+[36]     0.0    0.00    0.00       1         MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00       2/396900      Vector_Base::columnas() [20]
+                0.00    0.00       9/91126931     Vector::retorna(int) [9]
+                0.00    0.00       3/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00       5/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00      13/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00       9/54          MatrizDensa::retorna(int, int) [85]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[37]     0.0    0.00    0.00       1         ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00      11/91126931     Vector::retorna(int) [9]
+                0.00    0.00       6/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       1/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00       9/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00       5/55474       MatrizDispersa::retornaNumeroColumna(int, int) [53]
+                0.00    0.00       2/18554       MatrizDispersa::retornaNumeroColumnasBanda(int) [59]
+                0.00    0.00       2/18491       MatrizDispersa::retornaValorColumna(int, int) [60]
+                0.00    0.00       1/250         Vector::Vector(int) [72]
+                0.00    0.00       1/312         Vector::~Vector() [70]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[38]     0.0    0.00    0.00       1         ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00       9/91126931     Vector::retorna(int) [9]
+                0.00    0.00       5/40867129     Vector::asigna(int, double) [19]
+                0.00    0.00       7/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00      20/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00       4/23199       MatrizDispersa::asigna(int, int, double) [56]
+                0.00    0.00       1/96          Matriz_Base::matrizCuadrada() [77]
+-----------------------------------------------
+                0.00    0.00      31/31          BCGM::resuelve() [5]
+[39]     0.0    0.00    0.00      31         ResuelveCGM::tamano() [39]
+                0.00    0.00      31/18647321     Matriz_Base::renglones() [27]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[40]     0.0    0.00    0.00       1         ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*) [40]
+                0.00    0.00       1/37820265     Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                0.00    0.00       1/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::resuelve() [35]
+[41]     0.0    0.00    0.00       1         ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00      16/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00       1/1           Matriz_Base::mismaDimension(Matriz_Base*) [43]
+                0.00    0.00      57/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00      45/54          MatrizDensa::retorna(int, int) [85]
+                0.00    0.00      36/1925182     Matriz_Base::columnas() [51]
+                0.00    0.00      27/23199       MatrizDispersa::asigna(int, int, double) [56]
+                0.00    0.00      27/30          MatrizDensa::asigna(int, int, double) [103]
+                0.00    0.00       1/96          Matriz_Base::matrizCuadrada() [77]
+                0.00    0.00       1/1           Matriz::inicializaDiagonal(double) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[42]     0.0    0.00    0.00       1         Vector::convierte(double*, int) [42]
+                0.00    0.00       3/40867129     Vector::asigna(int, double) [19]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+[43]     0.0    0.00    0.00       1         Matriz_Base::mismaDimension(Matriz_Base*) [43]
+                0.00    0.00       1/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00       1/1925182     Matriz_Base::columnas() [51]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+[44]     0.0    0.00    0.00       1         ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       1/18647321     Matriz_Base::renglones() [27]
+                0.00    0.00      10/18686       MatrizDispersa::retorna(int, int) [58]
+                0.00    0.00       6/23199       MatrizDispersa::asigna(int, int, double) [56]
+                0.00    0.00       5/55474       MatrizDispersa::retornaNumeroColumna(int, int) [53]
+                0.00    0.00       2/18554       MatrizDispersa::retornaNumeroColumnasBanda(int) [59]
+                0.00    0.00       1/96          Matriz_Base::matrizCuadrada() [77]
+                0.00    0.00       1/18491       MatrizDispersa::retornaValorColumna(int, int) [60]
+-----------------------------------------------
+                                                 <spontaneous>
+[45]     0.0    0.00    0.00                 atexit [45]
+-----------------------------------------------
+                                                 <spontaneous>
+[46]     0.0    0.00    0.00                 data_start [46]
+-----------------------------------------------
+                                                 <spontaneous>
+[47]     0.0    0.00    0.00                 deregister_tm_clones [47]
+-----------------------------------------------
+                                                 <spontaneous>
+[48]     0.0    0.00    0.00                 etext [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[49]     0.0    0.00    0.00                 frame_dummy [49]
+-----------------------------------------------
+                                                 <spontaneous>
+[50]     0.0    0.00    0.00                 register_tm_clones [50]
+-----------------------------------------------
+                0.00    0.00       1/1925182     ResuelveInversa::resuelve() [35]
+                0.00    0.00       1/1925182     Matriz_Base::mismaDimension(Matriz_Base*) [43]
+                0.00    0.00       4/1925182     MatrizBand::multiplica(Vector*, Vector*) [31]
+                0.00    0.00      13/1925182     MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00      36/1925182     ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00   24815/1925182     MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.00    0.00  950150/1925182     Matriz::entradasDistintasCero() <cycle 1> [34]
+                0.00    0.00  950162/1925182     Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+[51]     0.0    0.00    0.00 1925182         Matriz_Base::columnas() [51]
+-----------------------------------------------
+                0.00    0.00       0/945500      Matriz_Base::visualizaTamano() [137]
+                0.00    0.00  945500/945500      Matriz::visualiza(int) <cycle 1> [108]
+[52]     0.0    0.00    0.00  945500         Ctrl_visualizacion::visualiza_n(double) [52]
+-----------------------------------------------
+                0.00    0.00       5/55474       ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       5/55474       ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00   27732/55474       ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00   27732/55474       ResuelveFactorizacionLUBandDisp::resuelve() [29]
+[53]     0.0    0.00    0.00   55474         MatrizDispersa::retornaNumeroColumna(int, int) [53]
+-----------------------------------------------
+                0.00    0.00   34433/34433       BCGM::resuelve() [5]
+[54]     0.0    0.00    0.00   34433         Vector::esCadaEntradaMasPequeno(double) [54]
+-----------------------------------------------
+                0.00    0.00    7450/25032       ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00   17582/25032       ResuelveJacobiBandDisp::resuelve() [3]
+[55]     0.0    0.00    0.00   25032         MatrizBand::retornaNumeroColumna(int, int) [55]
+-----------------------------------------------
+                0.00    0.00       4/23199       ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00       6/23199       ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00      27/23199       ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00    9244/23199       ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00   13918/23199       Matriz::copia(Matriz*) [23]
+[56]     0.0    0.00    0.00   23199         MatrizDispersa::asigna(int, int, double) [56]
+-----------------------------------------------
+                0.00    0.00     270/18891       MatrizBandComp::visualizaMatricesInternas() [106]
+                0.00    0.00   18621/18891       Vector::visualiza(int, int, int) [22]
+[57]     0.0    0.00    0.00   18891         Ctrl_visualizacion::visualiza_e(double) [57]
+-----------------------------------------------
+                0.00    0.00       9/18686       Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+                0.00    0.00       9/18686       ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00      10/18686       ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00      20/18686       ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00      57/18686       ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00    4684/18686       ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00   13897/18686       ResuelveFactorizacionLUBandDisp::factoriza() [32]
+[58]     0.0    0.00    0.00   18686         MatrizDispersa::retorna(int, int) [58]
+-----------------------------------------------
+                0.00    0.00       2/18554       ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       2/18554       ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00    9275/18554       ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00    9275/18554       ResuelveFactorizacionLUBandDisp::resuelve() [29]
+[59]     0.0    0.00    0.00   18554         MatrizDispersa::retornaNumeroColumnasBanda(int) [59]
+-----------------------------------------------
+                0.00    0.00       1/18491       ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       2/18491       ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00    9244/18491       ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00    9244/18491       ResuelveFactorizacionLUBandDisp::resuelve() [29]
+[60]     0.0    0.00    0.00   18491         MatrizDispersa::retornaValorColumna(int, int) [60]
+-----------------------------------------------
+                0.00    0.00    4740/4740        MatrizBandComp::visualizaMatricesInternas() [106]
+[61]     0.0    0.00    0.00    4740         Ctrl_visualizacion::visualiza(int) [61]
+-----------------------------------------------
+                0.00    0.00    4620/4620        MatrizBandComp::asigna(int, int, double) [28]
+[62]     0.0    0.00    0.00    4620         MatrizBandComp::compactaMatriz(int) [62]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.00    0.00      36/876         Matriz::copia(Matriz*) [23]
+                0.00    0.00     250/876         ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00     590/876         ResuelveJacobiBandDisp::resuelve() [3]
+[63]     0.0    0.00    0.00     876         MatrizBand::retorna(int, int) [63]
+                0.00    0.00       0/37820265     Matriz::visualiza(int) <cycle 1> [108]
+-----------------------------------------------
+                0.00    0.00     360/360         MatrizBandComp::visualizaMatricesInternas() [106]
+[64]     0.0    0.00    0.00     360         MatrizBandDisp::tamanoBanda() [64]
+-----------------------------------------------
+                0.00    0.00      62/312         Vector::Vector(int, char const*) [24]
+                0.00    0.00     250/312         Vector::Vector(int) [72]
+[65]     0.0    0.00    0.00     312         Vector_Base::asignaNombre(char const*) [65]
+-----------------------------------------------
+                0.00    0.00      62/312         Vector::Vector(int, char const*) [24]
+                0.00    0.00     250/312         Vector::Vector(int) [72]
+[66]     0.0    0.00    0.00     312         Vector_Base::Vector_Base() [66]
+-----------------------------------------------
+                0.00    0.00     312/312         Vector::~Vector() [70]
+[67]     0.0    0.00    0.00     312         Vector_Base::~Vector_Base() [67]
+-----------------------------------------------
+                0.00    0.00     312/312         Vector::~Vector() [70]
+[68]     0.0    0.00    0.00     312         Vector::liberaMemoria(int) [68]
+-----------------------------------------------
+                0.00    0.00      62/312         Vector::Vector(int, char const*) [24]
+                0.00    0.00     250/312         Vector::Vector(int) [72]
+[69]     0.0    0.00    0.00     312         Vector::solicitaMemoria(int, double) [69]
+-----------------------------------------------
+                0.00    0.00       1/312         ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00       3/312         Ejem1() [14]
+                0.00    0.00      31/312         ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00      31/312         ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00      31/312         ResuelveJacobiBandDisp::resuelve() [3]
+                0.00    0.00      60/312         Ejem2() [2]
+                0.00    0.00     155/312         BCGM::resuelve() [5]
+[70]     0.0    0.00    0.00     312         Vector::~Vector() [70]
+                0.00    0.00     312/312         Vector_Base::~Vector_Base() [67]
+                0.00    0.00     312/312         Vector::liberaMemoria(int) [68]
+-----------------------------------------------
+                0.00    0.00      75/252         ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00     177/252         ResuelveJacobiBandDisp::resuelve() [3]
+[71]     0.0    0.00    0.00     252         MatrizBand::retornaNumeroColumnasBanda(int) [71]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.00    0.00       1/250         Ejem1() [14]
+                0.00    0.00       1/250         ResuelveFactorizacionCholeskiBandDisp::resuelve() [37]
+                0.00    0.00      31/250         ResuelveFactorizacionLUBandDisp::resuelve() [29]
+                0.00    0.00      31/250         ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00      31/250         ResuelveJacobiBandDisp::resuelve() [3]
+                0.00    0.00     155/250         BCGM::resuelve() [5]
+[72]     0.0    0.00    0.00     250         Vector::Vector(int) [72]
+                0.00    0.00     250/312         Vector_Base::Vector_Base() [66]
+                0.00    0.00     250/312         Vector::solicitaMemoria(int, double) [69]
+                0.00    0.00     250/312         Vector_Base::asignaNombre(char const*) [65]
+-----------------------------------------------
+                0.00    0.00       7/127         Ejem1() [14]
+                0.00    0.00     120/127         Ejem2() [2]
+[73]     0.0    0.00    0.00     127         ResuelveSistemaLineal::informacionMetodo() [73]
+-----------------------------------------------
+                0.00    0.00       1/127         ResuelveInversa::ResuelveInversa(Matriz*, Vector*, Vector*) [119]
+                0.00    0.00       1/127         ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*) [40]
+                0.00    0.00       1/127         ResuelveFactorizacionCholeski::ResuelveFactorizacionCholeski(Vector*, Vector*) [121]
+                0.00    0.00      31/127         BCGM::BCGM(MultOp&, ProductoPunto&, int, double) [100]
+                0.00    0.00      31/127         ResuelveGaussSeidel::ResuelveGaussSeidel(Vector*, Vector*) [94]
+                0.00    0.00      31/127         ResuelveJacobi::ResuelveJacobi(Vector*, Vector*) [92]
+                0.00    0.00      31/127         ResuelveFactorizacionLU::ResuelveFactorizacionLU(Vector*, Vector*) [96]
+[74]     0.0    0.00    0.00     127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       0/127         BCGM::resuelve() [5]
+                0.00    0.00       7/127         Ejem1() [14]
+                0.00    0.00     120/127         Ejem2() [2]
+[75]     0.0    0.00    0.00     127         Vector::inicializa(double) [75]
+-----------------------------------------------
+                0.00    0.00     127/127         Vector::visualiza(int, int, int) [22]
+[76]     0.0    0.00    0.00     127         Vector::visualizaInformacion() [76]
+-----------------------------------------------
+                0.00    0.00       1/96          ResuelveFactorizacionCholeskiBandDisp::factoriza() [44]
+                0.00    0.00       1/96          ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+                0.00    0.00       1/96          ResuelveTridiagonal::resuelve() [38]
+                0.00    0.00      31/96          ResuelveFactorizacionLUBandDisp::factoriza() [32]
+                0.00    0.00      31/96          ResuelveGaussSeidelBandDisp::resuelve() [4]
+                0.00    0.00      31/96          ResuelveJacobiBandDisp::resuelve() [3]
+[77]     0.0    0.00    0.00      96         Matriz_Base::matrizCuadrada() [77]
+-----------------------------------------------
+                0.00    0.00       1/66          MatrizDensa::MatrizDensa(int, int, char const*) [117]
+                0.00    0.00       1/66          MatrizBand::MatrizBand(int, int, int, char const*) [113]
+                0.00    0.00      30/66          MatrizBandComp::MatrizBandComp(int, int, int, char const*) [26]
+                0.00    0.00      34/66          MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+[78]     0.0    0.00    0.00      66         Matriz_Base::asignaNombre(char const*) [78]
+-----------------------------------------------
+                0.00    0.00      66/66          Matriz::Matriz() [81]
+[79]     0.0    0.00    0.00      66         Matriz_Base::Matriz_Base() [79]
+-----------------------------------------------
+                0.00    0.00      66/66          Matriz::~Matriz() [82]
+[80]     0.0    0.00    0.00      66         Matriz_Base::~Matriz_Base() [80]
+-----------------------------------------------
+                0.00    0.00       1/66          MatrizDensa::MatrizDensa(int, int, char const*) [117]
+                0.00    0.00      65/66          MatrizBandDisp::MatrizBandDisp() [83]
+[81]     0.0    0.00    0.00      66         Matriz::Matriz() [81]
+                0.00    0.00      66/66          Matriz_Base::Matriz_Base() [79]
+-----------------------------------------------
+                0.00    0.00       1/66          MatrizDensa::~MatrizDensa() [118]
+                0.00    0.00      65/66          MatrizBandDisp::~MatrizBandDisp() [84]
+[82]     0.0    0.00    0.00      66         Matriz::~Matriz() [82]
+                0.00    0.00      66/66          Matriz_Base::~Matriz_Base() [80]
+-----------------------------------------------
+                0.00    0.00       1/65          MatrizBand::MatrizBand(int, int, int, char const*) [113]
+                0.00    0.00      30/65          MatrizBandComp::MatrizBandComp(int, int, int, char const*) [26]
+                0.00    0.00      34/65          MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+[83]     0.0    0.00    0.00      65         MatrizBandDisp::MatrizBandDisp() [83]
+                0.00    0.00      65/66          Matriz::Matriz() [81]
+-----------------------------------------------
+                0.00    0.00       1/65          MatrizBand::~MatrizBand() [114]
+                0.00    0.00      30/65          MatrizBandComp::~MatrizBandComp() [107]
+                0.00    0.00      34/65          MatrizDispersa::~MatrizDispersa() [89]
+[84]     0.0    0.00    0.00      65         MatrizBandDisp::~MatrizBandDisp() [84]
+                0.00    0.00      65/66          Matriz::~Matriz() [82]
+-----------------------------------------------
+                0.00    0.00       9/54          MatrizDensa::multiplica(Vector*, Vector*) [36]
+                0.00    0.00      45/54          ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+[85]     0.0    0.00    0.00      54         MatrizDensa::retorna(int, int) [85]
+-----------------------------------------------
+                0.00    0.00      34/34          MatrizDispersa::~MatrizDispersa() [89]
+[86]     0.0    0.00    0.00      34         MatrizDispersa::liberaMemoria() [86]
+-----------------------------------------------
+                0.00    0.00      34/34          MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+[87]     0.0    0.00    0.00      34         MatrizDispersa::solicitaMemoria(int, int, int) [87]
+-----------------------------------------------
+                0.00    0.00       4/34          Ejem1() [14]
+                0.00    0.00      30/34          Ejem2() [2]
+[88]     0.0    0.00    0.00      34         MatrizDispersa::MatrizDispersa(int, int, int, char const*) [88]
+                0.00    0.00      34/65          MatrizBandDisp::MatrizBandDisp() [83]
+                0.00    0.00      34/34          MatrizDispersa::solicitaMemoria(int, int, int) [87]
+                0.00    0.00      34/66          Matriz_Base::asignaNombre(char const*) [78]
+-----------------------------------------------
+                0.00    0.00       4/34          Ejem1() [14]
+                0.00    0.00      30/34          Ejem2() [2]
+[89]     0.0    0.00    0.00      34         MatrizDispersa::~MatrizDispersa() [89]
+                0.00    0.00      34/34          MatrizDispersa::liberaMemoria() [86]
+                0.00    0.00      34/65          MatrizBandDisp::~MatrizBandDisp() [84]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*) [93]
+[90]     0.0    0.00    0.00      31         ResuelveCGM::ResuelveCGM(Vector*, Vector*) [90]
+                0.00    0.00      31/31          BCGM::BCGM(MultOp&, ProductoPunto&, int, double) [100]
+                0.00    0.00      31/31          MultOp::MultOp() [101]
+                0.00    0.00      31/31          ProductoPunto::ProductoPunto() [91]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveCGM::ResuelveCGM(Vector*, Vector*) [90]
+[91]     0.0    0.00    0.00      31         ProductoPunto::ProductoPunto() [91]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*) [95]
+[92]     0.0    0.00    0.00      31         ResuelveJacobi::ResuelveJacobi(Vector*, Vector*) [92]
+                0.00    0.00      31/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[93]     0.0    0.00    0.00      31         ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*) [93]
+                0.00    0.00      31/31          ResuelveCGM::ResuelveCGM(Vector*, Vector*) [90]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*) [97]
+[94]     0.0    0.00    0.00      31         ResuelveGaussSeidel::ResuelveGaussSeidel(Vector*, Vector*) [94]
+                0.00    0.00      31/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[95]     0.0    0.00    0.00      31         ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*) [95]
+                0.00    0.00      31/31          ResuelveJacobi::ResuelveJacobi(Vector*, Vector*) [92]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*) [98]
+[96]     0.0    0.00    0.00      31         ResuelveFactorizacionLU::ResuelveFactorizacionLU(Vector*, Vector*) [96]
+                0.00    0.00      31/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[97]     0.0    0.00    0.00      31         ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*) [97]
+                0.00    0.00      31/31          ResuelveGaussSeidel::ResuelveGaussSeidel(Vector*, Vector*) [94]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[98]     0.0    0.00    0.00      31         ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*) [98]
+                0.00    0.00      31/31          ResuelveFactorizacionLU::ResuelveFactorizacionLU(Vector*, Vector*) [96]
+-----------------------------------------------
+                0.00    0.00       1/31          Ejem1() [14]
+                0.00    0.00      30/31          Ejem2() [2]
+[99]     0.0    0.00    0.00      31         ResuelveFactorizacionLUBandDisp::~ResuelveFactorizacionLUBandDisp() [99]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveCGM::ResuelveCGM(Vector*, Vector*) [90]
+[100]    0.0    0.00    0.00      31         BCGM::BCGM(MultOp&, ProductoPunto&, int, double) [100]
+                0.00    0.00      31/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00      31/31          ResuelveCGM::ResuelveCGM(Vector*, Vector*) [90]
+[101]    0.0    0.00    0.00      31         MultOp::MultOp() [101]
+-----------------------------------------------
+                0.00    0.00      31/31          BCGM::resuelve() [5]
+[102]    0.0    0.00    0.00      31         Vector::esVectorCero() [102]
+-----------------------------------------------
+                0.00    0.00       3/30          Matriz::inicializaDiagonal(double) [124]
+                0.00    0.00      27/30          ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+[103]    0.0    0.00    0.00      30         MatrizDensa::asigna(int, int, double) [103]
+-----------------------------------------------
+                                  30             Matriz::visualiza(int) <cycle 1> [108]
+                0.00    0.00       0/37820265     MatrizBandComp::asigna(int, int, double) [28]
+                0.00    0.00       0/37820265     MatrizBandComp::retornaNumeroColumnasBanda(int) [12]
+                0.00    0.00       0/37820265     MatrizBandComp::multiplica(Vector*, Vector*) [11]
+                0.00    0.00       0/37820265     MatrizBandComp::compactaMatriz(int) [62]
+                0.00    0.00       0/37820265     MatrizBand::asigna(int, int, double) [109]
+                0.00    0.00       0/37820265     MatrizBand::retornaNumeroColumnasBanda(int) [71]
+                0.00    0.00       0/37820265     MatrizBand::multiplica(Vector*, Vector*) [31]
+[104]    0.0    0.00    0.00      30         Matriz_Base::visualizaInformacion() <cycle 1> [104]
+                                  30             Matriz::entradasDistintasCero() <cycle 1> [34]
+                                  30             Matriz::maximoTamanoColumnaOcupado() <cycle 1> [33]
+-----------------------------------------------
+                0.00    0.00      30/30          MatrizBandComp::~MatrizBandComp() [107]
+[105]    0.0    0.00    0.00      30         MatrizBandComp::liberaMemoria() [105]
+-----------------------------------------------
+                0.00    0.00      30/30          Ejem2() [2]
+[106]    0.0    0.00    0.00      30         MatrizBandComp::visualizaMatricesInternas() [106]
+                0.00    0.00    4740/4740        Ctrl_visualizacion::visualiza(int) [61]
+                0.00    0.00     360/360         MatrizBandDisp::tamanoBanda() [64]
+                0.00    0.00     270/18891       Ctrl_visualizacion::visualiza_e(double) [57]
+-----------------------------------------------
+                0.00    0.00      30/30          Ejem2() [2]
+[107]    0.0    0.00    0.00      30         MatrizBandComp::~MatrizBandComp() [107]
+                0.00    0.00      30/65          MatrizBandDisp::~MatrizBandDisp() [84]
+                0.00    0.00      30/30          MatrizBandComp::liberaMemoria() [105]
+-----------------------------------------------
+                                   0             MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                0.00    0.00       0/37820265     MatrizBandComp::asigna(int, int, double) [28]
+                0.00    0.00       0/37820265     MatrizBand::asigna(int, int, double) [109]
+                0.00    0.00       0/37820265     MatrizBand::retorna(int, int) [63]
+                0.00    0.00      30/37820265     Ejem2() [2]
+[108]    0.0    0.00    0.00      30         Matriz::visualiza(int) <cycle 1> [108]
+                0.00    0.00  945500/945500      Ctrl_visualizacion::visualiza_n(double) [52]
+                              945500             MatrizBandComp::retorna(int, int) <cycle 1> [7]
+                                  30             Matriz_Base::visualizaInformacion() <cycle 1> [104]
+-----------------------------------------------
+                0.00    0.00       7/7           Matriz::convierte(double*, int, int) [110]
+[109]    0.0    0.00    0.00       7         MatrizBand::asigna(int, int, double) [109]
+                0.00    0.00       0/37820265     Matriz_Base::visualizaInformacion() <cycle 1> [104]
+                0.00    0.00       0/37820265     Matriz::visualiza(int) <cycle 1> [108]
+-----------------------------------------------
+                0.00    0.00       3/3           Ejem1() [14]
+[110]    0.0    0.00    0.00       3         Matriz::convierte(double*, int, int) [110]
+                0.00    0.00       7/7           MatrizBand::asigna(int, int, double) [109]
+-----------------------------------------------
+                0.00    0.00       1/1           MatrizBand::~MatrizBand() [114]
+[111]    0.0    0.00    0.00       1         MatrizBand::liberaMemoria() [111]
+-----------------------------------------------
+                0.00    0.00       1/1           MatrizBand::MatrizBand(int, int, int, char const*) [113]
+[112]    0.0    0.00    0.00       1         MatrizBand::solicitaMemoria(int, int, int) [112]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[113]    0.0    0.00    0.00       1         MatrizBand::MatrizBand(int, int, int, char const*) [113]
+                0.00    0.00       1/65          MatrizBandDisp::MatrizBandDisp() [83]
+                0.00    0.00       1/1           MatrizBand::solicitaMemoria(int, int, int) [112]
+                0.00    0.00       1/66          Matriz_Base::asignaNombre(char const*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[114]    0.0    0.00    0.00       1         MatrizBand::~MatrizBand() [114]
+                0.00    0.00       1/1           MatrizBand::liberaMemoria() [111]
+                0.00    0.00       1/65          MatrizBandDisp::~MatrizBandDisp() [84]
+-----------------------------------------------
+                0.00    0.00       1/1           MatrizDensa::~MatrizDensa() [118]
+[115]    0.0    0.00    0.00       1         MatrizDensa::liberaMemoria() [115]
+-----------------------------------------------
+                0.00    0.00       1/1           MatrizDensa::MatrizDensa(int, int, char const*) [117]
+[116]    0.0    0.00    0.00       1         MatrizDensa::solicitaMemoria(int, int) [116]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::resuelve() [35]
+[117]    0.0    0.00    0.00       1         MatrizDensa::MatrizDensa(int, int, char const*) [117]
+                0.00    0.00       1/66          Matriz::Matriz() [81]
+                0.00    0.00       1/1           MatrizDensa::solicitaMemoria(int, int) [116]
+                0.00    0.00       1/66          Matriz_Base::asignaNombre(char const*) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::~ResuelveInversa() [120]
+[118]    0.0    0.00    0.00       1         MatrizDensa::~MatrizDensa() [118]
+                0.00    0.00       1/1           MatrizDensa::liberaMemoria() [115]
+                0.00    0.00       1/66          Matriz::~Matriz() [82]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[119]    0.0    0.00    0.00       1         ResuelveInversa::ResuelveInversa(Matriz*, Vector*, Vector*) [119]
+                0.00    0.00       1/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[120]    0.0    0.00    0.00       1         ResuelveInversa::~ResuelveInversa() [120]
+                0.00    0.00       1/1           MatrizDensa::~MatrizDensa() [118]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveFactorizacionCholeskiBandDisp::ResuelveFactorizacionCholeskiBandDisp(MatrizBandDisp*, Vector*, Vector*) [122]
+[121]    0.0    0.00    0.00       1         ResuelveFactorizacionCholeski::ResuelveFactorizacionCholeski(Vector*, Vector*) [121]
+                0.00    0.00       1/127         ResuelveSistemaLineal::ResuelveSistemaLineal() [74]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[122]    0.0    0.00    0.00       1         ResuelveFactorizacionCholeskiBandDisp::ResuelveFactorizacionCholeskiBandDisp(MatrizBandDisp*, Vector*, Vector*) [122]
+                0.00    0.00       1/1           ResuelveFactorizacionCholeski::ResuelveFactorizacionCholeski(Vector*, Vector*) [121]
+-----------------------------------------------
+                0.00    0.00       1/1           Ejem1() [14]
+[123]    0.0    0.00    0.00       1         ResuelveFactorizacionCholeskiBandDisp::~ResuelveFactorizacionCholeskiBandDisp() [123]
+-----------------------------------------------
+                0.00    0.00       1/1           ResuelveInversa::invierte(Matriz*, Matriz*) [41]
+[124]    0.0    0.00    0.00       1         Matriz::inicializaDiagonal(double) [124]
+                0.00    0.00       3/30          MatrizDensa::asigna(int, int, double) [103]
+-----------------------------------------------
+                                                 <spontaneous>
+[125]    0.0    0.00    0.00                 MatrizBand::inicializa(double) [125]
+-----------------------------------------------
+                                                 <spontaneous>
+[126]    0.0    0.00    0.00                 MatrizBand::multiplica(MatrizBand*, MatrizBand*) [126]
+-----------------------------------------------
+                                                 <spontaneous>
+[127]    0.0    0.00    0.00                 MatrizBand::multiplica(double) [127]
+-----------------------------------------------
+                                                 <spontaneous>
+[128]    0.0    0.00    0.00                 MatrizBand::retornaValorColumna(int, int) [128]
+-----------------------------------------------
+                                                 <spontaneous>
+[129]    0.0    0.00    0.00                 MatrizBand::visualizaMatricesInternas() [129]
+-----------------------------------------------
+                                                 <spontaneous>
+[130]    0.0    0.00    0.00                 MatrizDensa::inicializa(double) [130]
+-----------------------------------------------
+                                                 <spontaneous>
+[131]    0.0    0.00    0.00                 MatrizDensa::multiplica(MatrizDensa*, MatrizDensa*) [131]
+-----------------------------------------------
+                                                 <spontaneous>
+[132]    0.0    0.00    0.00                 MatrizDensa::multiplica(double) [132]
+-----------------------------------------------
+                                                 <spontaneous>
+[133]    0.0    0.00    0.00                 MatrizDensa::retornaValorColumna(int, int) [133]
+-----------------------------------------------
+                                                 <spontaneous>
+[134]    0.0    0.00    0.00                 MatrizDensa::retornaNumeroColumna(int, int) [134]
+-----------------------------------------------
+                                                 <spontaneous>
+[135]    0.0    0.00    0.00                 MatrizDensa::retornaNumeroColumnasBanda(int) [135]
+-----------------------------------------------
+                0.00    0.00       0/0           MatrizBandComp::solicitaMemoria(int, int, int) [25]
+                0.00    0.00       0/0           MatrizBandComp::asigna(int, int, double) [28]
+[136]    0.0    0.00    0.00                 Matriz_Base::faltaMemoria() [136]
+-----------------------------------------------
+                                                 <spontaneous>
+[137]    0.0    0.00    0.00                 Matriz_Base::visualizaTamano() [137]
+                0.00    0.00       0/945500      Ctrl_visualizacion::visualiza_n(double) [52]
+-----------------------------------------------
+                                                 <spontaneous>
+[138]    0.0    0.00    0.00                 Matriz_Base::tamano() [138]
+-----------------------------------------------
+                                                 <spontaneous>
+[139]    0.0    0.00    0.00                 MatrizBandComp::inicializa(double) [139]
+-----------------------------------------------
+                                                 <spontaneous>
+[140]    0.0    0.00    0.00                 MatrizBandComp::multiplica(MatrizBandComp*, MatrizBandComp*) [140]
+-----------------------------------------------
+                                                 <spontaneous>
+[141]    0.0    0.00    0.00                 MatrizBandComp::multiplica(double) [141]
+-----------------------------------------------
+                                                 <spontaneous>
+[142]    0.0    0.00    0.00                 MatrizBandComp::retornaValorColumna(int, int) [142]
+-----------------------------------------------
+                                                 <spontaneous>
+[143]    0.0    0.00    0.00                 MatrizDispersa::inicializa(double) [143]
+-----------------------------------------------
+                                                 <spontaneous>
+[144]    0.0    0.00    0.00                 MatrizDispersa::multiplica(Vector*, Vector*) [144]
+-----------------------------------------------
+                                                 <spontaneous>
+[145]    0.0    0.00    0.00                 MatrizDispersa::multiplica(MatrizDispersa*, MatrizDispersa*) [145]
+-----------------------------------------------
+                                                 <spontaneous>
+[146]    0.0    0.00    0.00                 MatrizDispersa::multiplica(double) [146]
+-----------------------------------------------
+                                                 <spontaneous>
+[147]    0.0    0.00    0.00                 MatrizDispersa::visualizaMatricesInternas() [147]
+-----------------------------------------------
+                                                 <spontaneous>
+[148]    0.0    0.00    0.00                 ResuelveInversa::resuelve(Vector*, Vector*) [148]
+-----------------------------------------------
+                                                 <spontaneous>
+[149]    0.0    0.00    0.00                 ResuelveTridiagonal::resuelve(Vector*, Vector*) [149]
+-----------------------------------------------
+                0.00    0.00       0/0           ResuelveGaussSeidelBandDisp::resuelve() [4]
+[150]    0.0    0.00    0.00                 ResuelveSistemaLineal::error(char const*) [150]
+-----------------------------------------------
+                                                 <spontaneous>
+[151]    0.0    0.00    0.00                 ResuelveJacobiBandDisp::resuelve(Vector*, Vector*) [151]
+-----------------------------------------------
+                                                 <spontaneous>
+[152]    0.0    0.00    0.00                 ResuelveGaussSeidelBandDisp::resuelve(Vector*, Vector*) [152]
+-----------------------------------------------
+                                                 <spontaneous>
+[153]    0.0    0.00    0.00                 ResuelveFactorizacionLUBandDisp::resuelve(Vector*, Vector*) [153]
+-----------------------------------------------
+                                                 <spontaneous>
+[154]    0.0    0.00    0.00                 ResuelveFactorizacionCholeskiBandDisp::resuelve(Vector*, Vector*) [154]
+-----------------------------------------------
+                                                 <spontaneous>
+[155]    0.0    0.00    0.00                 BCGM::resuelve(Vector*, Vector*) [155]
+-----------------------------------------------
+                                                 <spontaneous>
+[156]    0.0    0.00    0.00                 Matriz::transpuesta(Matriz*) [156]
+-----------------------------------------------
+                                                 <spontaneous>
+[157]    0.0    0.00    0.00                 Matriz::retornaVector(Vector*) [157]
+-----------------------------------------------
+                                                 <spontaneous>
+[158]    0.0    0.00    0.00                 Matriz::suma(Matriz*) [158]
+-----------------------------------------------
+                                                 <spontaneous>
+[159]    0.0    0.00    0.00                 Matriz::suma(Matriz*, Matriz*) [159]
+-----------------------------------------------
+                                                 <spontaneous>
+[160]    0.0    0.00    0.00                 Matriz::resta(Matriz*) [160]
+-----------------------------------------------
+                                                 <spontaneous>
+[161]    0.0    0.00    0.00                 Matriz::resta(Matriz*, Matriz*) [161]
+-----------------------------------------------
+                                                 <spontaneous>
+[162]    0.0    0.00    0.00                 Matriz::iguales(Matriz*, double) [162]
+-----------------------------------------------
+                                                 <spontaneous>
+[163]    0.0    0.00    0.00                 Matriz::convierte(double**, int, int) [163]
+-----------------------------------------------
+                                                 <spontaneous>
+[164]    0.0    0.00    0.00                 Matriz::convierte(int, Vector*) [164]
+-----------------------------------------------
+                                                 <spontaneous>
+[165]    0.0    0.00    0.00                 Matriz::convierte(int, int, double*) [165]
+-----------------------------------------------
+                                                 <spontaneous>
+[166]    0.0    0.00    0.00                 Vector::productoPunto() [166]
+-----------------------------------------------
+                                                 <spontaneous>
+[167]    0.0    0.00    0.00                 Vector::suma(Vector*, Vector*) [167]
+-----------------------------------------------
+                                                 <spontaneous>
+[168]    0.0    0.00    0.00                 Vector::normaInf() [168]
+-----------------------------------------------
+                                                 <spontaneous>
+[169]    0.0    0.00    0.00                 non-virtual thunk to ResuelveCGM::multiplica(Vector*, Vector*) [169]
+-----------------------------------------------
+                                                 <spontaneous>
+[170]    0.0    0.00    0.00                 non-virtual thunk to ResuelveCGM::tamano() [170]
+-----------------------------------------------
+                                                 <spontaneous>
+[171]    0.0    0.00    0.00                 non-virtual thunk to ResuelveCGM::productoPunto(Vector*, Vector*) [171]
+-----------------------------------------------
+                                                 <spontaneous>
+[172]    0.0    0.00    0.00                 __do_global_dtors_aux [172]
+-----------------------------------------------
+                                                 <spontaneous>
+[173]    0.0    0.00    0.00                 __do_global_dtors_aux_fini_array_entry [173]
+-----------------------------------------------
+                                                 <spontaneous>
+[174]    0.0    0.00    0.00                 __frame_dummy_init_array_entry [174]
+-----------------------------------------------
+                                                 <spontaneous>
+[175]    0.0    0.00    0.00                 __gmon_start__ [175]
+-----------------------------------------------
+                                                 <spontaneous>
+[176]    0.0    0.00    0.00                 __libc_csu_fini [176]
+-----------------------------------------------
+                                                 <spontaneous>
+[177]    0.0    0.00    0.00                 __libc_csu_init [177]
+-----------------------------------------------
+                                                 <spontaneous>
+[178]    0.0    0.00    0.00                 _fini [178]
+-----------------------------------------------
+                                                 <spontaneous>
+[179]    0.0    0.00    0.00                 _init [179]
+-----------------------------------------------
+                                                 <spontaneous>
+[180]    0.0    0.00    0.00                 _start [180]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [14] Ejem1()                [28] MatrizBandComp::asigna(int, int, double) [157] Matriz::retornaVector(Vector*)
+   [2] Ejem2()                 [7] MatrizBandComp::retorna(int, int) [124] Matriz::inicializaDiagonal(double)
+ [125] MatrizBand::inicializa(double) [26] MatrizBandComp::MatrizBandComp(int, int, int, char const*) [34] Matriz::entradasDistintasCero()
+  [31] MatrizBand::multiplica(Vector*, Vector*) [107] MatrizBandComp::~MatrizBandComp() [33] Matriz::maximoTamanoColumnaOcupado()
+ [126] MatrizBand::multiplica(MatrizBand*, MatrizBand*) [64] MatrizBandDisp::tamanoBanda() [158] Matriz::suma(Matriz*)
+ [127] MatrizBand::multiplica(double) [83] MatrizBandDisp::MatrizBandDisp() [159] Matriz::suma(Matriz*, Matriz*)
+ [111] MatrizBand::liberaMemoria() [84] MatrizBandDisp::~MatrizBandDisp() [23] Matriz::copia(Matriz*)
+ [112] MatrizBand::solicitaMemoria(int, int, int) [143] MatrizDispersa::inicializa(double) [160] Matriz::resta(Matriz*)
+ [128] MatrizBand::retornaValorColumna(int, int) [144] MatrizDispersa::multiplica(Vector*, Vector*) [161] Matriz::resta(Matriz*, Matriz*)
+  [55] MatrizBand::retornaNumeroColumna(int, int) [145] MatrizDispersa::multiplica(MatrizDispersa*, MatrizDispersa*) [162] Matriz::iguales(Matriz*, double)
+ [129] MatrizBand::visualizaMatricesInternas() [146] MatrizDispersa::multiplica(double) [163] Matriz::convierte(double**, int, int)
+  [71] MatrizBand::retornaNumeroColumnasBanda(int) [86] MatrizDispersa::liberaMemoria() [110] Matriz::convierte(double*, int, int)
+ [109] MatrizBand::asigna(int, int, double) [87] MatrizDispersa::solicitaMemoria(int, int, int) [164] Matriz::convierte(int, Vector*)
+  [63] MatrizBand::retorna(int, int) [60] MatrizDispersa::retornaValorColumna(int, int) [165] Matriz::convierte(int, int, double*)
+ [113] MatrizBand::MatrizBand(int, int, int, char const*) [53] MatrizDispersa::retornaNumeroColumna(int, int) [108] Matriz::visualiza(int)
+ [114] MatrizBand::~MatrizBand() [147] MatrizDispersa::visualizaMatricesInternas() [81] Matriz::Matriz()
+ [130] MatrizDensa::inicializa(double) [59] MatrizDispersa::retornaNumeroColumnasBanda(int) [82] Matriz::~Matriz()
+  [36] MatrizDensa::multiplica(Vector*, Vector*) [56] MatrizDispersa::asigna(int, int, double) [101] MultOp::MultOp()
+ [131] MatrizDensa::multiplica(MatrizDensa*, MatrizDensa*) [58] MatrizDispersa::retorna(int, int) [75] Vector::inicializa(double)
+ [132] MatrizDensa::multiplica(double) [88] MatrizDispersa::MatrizDispersa(int, int, int, char const*) [18] Vector::multiplica(double)
+ [115] MatrizDensa::liberaMemoria() [89] MatrizDispersa::~MatrizDispersa() [102] Vector::esVectorCero()
+ [116] MatrizDensa::solicitaMemoria(int, int) [92] ResuelveJacobi::ResuelveJacobi(Vector*, Vector*) [68] Vector::liberaMemoria(int)
+ [133] MatrizDensa::retornaValorColumna(int, int) [41] ResuelveInversa::invierte(Matriz*, Matriz*) [16] Vector::productoPunto(Vector*)
+ [134] MatrizDensa::retornaNumeroColumna(int, int) [148] ResuelveInversa::resuelve(Vector*, Vector*) [166] Vector::productoPunto()
+ [135] MatrizDensa::retornaNumeroColumnasBanda(int) [35] ResuelveInversa::resuelve() [69] Vector::solicitaMemoria(int, double)
+ [103] MatrizDensa::asigna(int, int, double) [119] ResuelveInversa::ResuelveInversa(Matriz*, Vector*, Vector*) [76] Vector::visualizaInformacion()
+  [85] MatrizDensa::retorna(int, int) [120] ResuelveInversa::~ResuelveInversa() [54] Vector::esCadaEntradaMasPequeno(double)
+ [117] MatrizDensa::MatrizDensa(int, int, char const*) [57] Ctrl_visualizacion::visualiza_e(double) [13] Vector::suma(Vector*)
+ [118] MatrizDensa::~MatrizDensa() [52] Ctrl_visualizacion::visualiza_n(double) [167] Vector::suma(Vector*, Vector*)
+  [78] Matriz_Base::asignaNombre(char const*) [61] Ctrl_visualizacion::visualiza(int) [17] Vector::copia(Vector*)
+ [136] Matriz_Base::faltaMemoria() [93] ResuelveCGMBandDisp::ResuelveCGMBandDisp(MatrizBandDisp*, Vector*, Vector*) [21] Vector::resta(Vector*)
+  [77] Matriz_Base::matrizCuadrada() [94] ResuelveGaussSeidel::ResuelveGaussSeidel(Vector*, Vector*) [30] Vector::resta(Vector*, Vector*)
+  [43] Matriz_Base::mismaDimension(Matriz_Base*) [149] ResuelveTridiagonal::resuelve(Vector*, Vector*) [19] Vector::asigna(int, double)
+ [137] Matriz_Base::visualizaTamano() [38] ResuelveTridiagonal::resuelve() [9] Vector::retorna(int)
+ [104] Matriz_Base::visualizaInformacion() [40] ResuelveTridiagonal::ResuelveTridiagonal(Matriz*, Vector*, Vector*) [168] Vector::normaInf()
+ [138] Matriz_Base::tamano()  [73] ResuelveSistemaLineal::informacionMetodo() [42] Vector::convierte(double*, int)
+  [51] Matriz_Base::columnas() [150] ResuelveSistemaLineal::error(char const*) [22] Vector::visualiza(int, int, int)
+  [27] Matriz_Base::renglones() [74] ResuelveSistemaLineal::ResuelveSistemaLineal() [72] Vector::Vector(int)
+  [79] Matriz_Base::Matriz_Base() [151] ResuelveJacobiBandDisp::resuelve(Vector*, Vector*) [24] Vector::Vector(int, char const*)
+  [80] Matriz_Base::~Matriz_Base() [3] ResuelveJacobiBandDisp::resuelve() [70] Vector::~Vector()
+  [10] ResuelveCGM::multiplica(Vector*, Vector*) [95] ResuelveJacobiBandDisp::ResuelveJacobiBandDisp(MatrizBandDisp*, Vector*, Vector*) [169] non-virtual thunk to ResuelveCGM::multiplica(Vector*, Vector*)
+  [15] ResuelveCGM::productoPunto(Vector*, Vector*) [96] ResuelveFactorizacionLU::ResuelveFactorizacionLU(Vector*, Vector*) [170] non-virtual thunk to ResuelveCGM::tamano()
+  [39] ResuelveCGM::tamano() [152] ResuelveGaussSeidelBandDisp::resuelve(Vector*, Vector*) [171] non-virtual thunk to ResuelveCGM::productoPunto(Vector*, Vector*)
+  [90] ResuelveCGM::ResuelveCGM(Vector*, Vector*) [4] ResuelveGaussSeidelBandDisp::resuelve() [172] __do_global_dtors_aux
+  [65] Vector_Base::asignaNombre(char const*) [97] ResuelveGaussSeidelBandDisp::ResuelveGaussSeidelBandDisp(MatrizBandDisp*, Vector*, Vector*) [173] __do_global_dtors_aux_fini_array_entry
+  [20] Vector_Base::columnas() [121] ResuelveFactorizacionCholeski::ResuelveFactorizacionCholeski(Vector*, Vector*) [174] __frame_dummy_init_array_entry
+  [66] Vector_Base::Vector_Base() [153] ResuelveFactorizacionLUBandDisp::resuelve(Vector*, Vector*) [175] __gmon_start__
+  [67] Vector_Base::~Vector_Base() [29] ResuelveFactorizacionLUBandDisp::resuelve() [176] __libc_csu_fini
+  [91] ProductoPunto::ProductoPunto() [32] ResuelveFactorizacionLUBandDisp::factoriza() [177] __libc_csu_init
+ [139] MatrizBandComp::inicializa(double) [98] ResuelveFactorizacionLUBandDisp::ResuelveFactorizacionLUBandDisp(MatrizBandDisp*, Vector*, Vector*) [178] _fini
+  [11] MatrizBandComp::multiplica(Vector*, Vector*) [99] ResuelveFactorizacionLUBandDisp::~ResuelveFactorizacionLUBandDisp() [179] _init
+ [140] MatrizBandComp::multiplica(MatrizBandComp*, MatrizBandComp*) [154] ResuelveFactorizacionCholeskiBandDisp::resuelve(Vector*, Vector*) [180] _start
+ [141] MatrizBandComp::multiplica(double) [37] ResuelveFactorizacionCholeskiBandDisp::resuelve() [45] atexit
+ [105] MatrizBandComp::liberaMemoria() [44] ResuelveFactorizacionCholeskiBandDisp::factoriza() [46] data_start
+  [62] MatrizBandComp::compactaMatriz(int) [122] ResuelveFactorizacionCholeskiBandDisp::ResuelveFactorizacionCholeskiBandDisp(MatrizBandDisp*, Vector*, Vector*) [47] deregister_tm_clones
+  [25] MatrizBandComp::solicitaMemoria(int, int, int) [123] ResuelveFactorizacionCholeskiBandDisp::~ResuelveFactorizacionCholeskiBandDisp() [48] etext
+ [142] MatrizBandComp::retornaValorColumna(int, int) [155] BCGM::resuelve(Vector*, Vector*) [49] frame_dummy
+   [8] MatrizBandComp::retornaNumeroColumna(int, int) [5] BCGM::resuelve() [1] main
+ [106] MatrizBandComp::visualizaMatricesInternas() [100] BCGM::BCGM(MultOp&, ProductoPunto&, int, double) [50] register_tm_clones
+  [12] MatrizBandComp::retornaNumeroColumnasBanda(int) [156] Matriz::transpuesta(Matriz*) [6] <cycle 1>

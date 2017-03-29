@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>Resolucion de sistemas lineales</title>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=ES>
+
+<div class=Section1>
+
+<br>
+
+Para hacer este an&aacute;lisis de rendimiento, hacer:<br>
+<ul>
+  $ g++ -g -pg -O0 *.cpp<br>
+  $ ./a.out <br>
+  $ gprof -c -z a.out gmon.out > sal.txt<br>
+</ul>
+el archivo sal.txt contiene el an&aacute;lisis de rendimiento detallado.<br>
+<br><br>
+
+Compilar fuentes en C++ solicitando que el ejecutable tenga el nombre EJEMP<br>
+  $ g++ -O1 *.cpp -o ejemp<br> 
+para ejecutar el programa ya compilado:<br>
+  $ ./ejemp <br>
+<br><br>
+
+Compilar usando diversas optimizaciones (-O1, -O2 o -O3) usar:<br>
+  $ g++ -O1 *.cpp<br>
+para ejecutar el programa ya compilado:<br>
+  $ ./a.out <br>
+<br><br>
+
+Para compilar y ver todos los avisos usar:<br>
+  $ g++ -pedantic -Wall -Wextra -O *.cpp<br>
+o<br>
+  $ g++ -Weffc++ *.cpp<br>
+<br><br>
+
+Para hacer depuración del código mediante el depurador gráfico ddd usar:<br>
+  $ g++ -g -O0 *.cpp<br>
+  $ ddd ./a.out<br>
+Puede usarse también los depuradores xxgdb, gdb, kdbg cada uno tiene sus
+pros y contras, depende del usuario cual es el más adecuado para usar
+<br><br>
+
+Para rastreo de problemas con la manipulación de memoria y punteros desbordados:<br>
+   $ g++ -g -O0 *.cpp<br>
+   $ valgrind --tool=memcheck --leak-check=yes --show-reachable=yes ./a.out<br>
+mas opciones en:<br>
+   http://valgrind.org/<br>
+Existen varios front-end para valgrind, uno de ellos es alleyoop y se usa:<br>
+   $ alleyoop ./a.out -v --arg1=foo<br>
+otro es kcachegrind.<br>
+<br><br>
+
+Revisión estática del código en C++ usar<br>
+   $ cppcheck --enable=all *.?pp<br>
+mostrara los avisos de análisis estático del código indicado<br>
+
+
+
+</body>
+
+</html>

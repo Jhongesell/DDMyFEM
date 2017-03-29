@@ -1,0 +1,7 @@
+Para generar documentación usando doxygen, primeramente es necesario
+generar el archivo de configuración. Para ello usar:
+  $ doxygen -g 
+
+Editar archivo Doxyfile generado segun las necesidades de la documentación.
+Para generar la documentación usar:
+  $ doxygen Doxyfile

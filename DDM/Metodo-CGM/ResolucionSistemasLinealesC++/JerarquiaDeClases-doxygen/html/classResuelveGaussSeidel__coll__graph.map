@@ -1,0 +1,7 @@
+<map id="ResuelveGaussSeidel" name="ResuelveGaussSeidel">
+<area shape="rect" id="node2" href="$classResuelveSistemaLineal.html" title="Clase para resolución del sistema lineal. " alt="" coords="39,185,197,212"/>
+<area shape="rect" id="node3" href="$classMatriz.html" title="Clase base para el trabajar con matrices de punto flotante. " alt="" coords="33,81,91,108"/>
+<area shape="rect" id="node4" href="$classMatriz__Base.html" title="Clase base para el trabajar con matrices. " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node5" href="$classVector.html" title="Clase para el trabajar con vectores de punto flotante. " alt="" coords="133,81,193,108"/>
+<area shape="rect" id="node6" href="$classVector__Base.html" title="Clase base para el trabajar con vectores. " alt="" coords="124,5,221,32"/>
+</map>

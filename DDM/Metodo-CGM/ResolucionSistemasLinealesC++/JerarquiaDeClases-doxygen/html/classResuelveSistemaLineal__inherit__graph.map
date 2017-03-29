@@ -1,0 +1,15 @@
+<map id="ResuelveSistemaLineal" name="ResuelveSistemaLineal">
+<area shape="rect" id="node2" href="$classBCGM.html" title="Clase para resolución del sistema lineal mediante CGM. " alt="" coords="284,9,347,36"/>
+<area shape="rect" id="node5" href="$classResuelveFactorizacionCholeski.html" title="Clase para resolución del sistema lineal usando factorizacion Choleski. " alt="" coords="212,65,419,92"/>
+<area shape="rect" id="node7" href="$classResuelveFactorizacionLU.html" title="Clase para resolución del sistema lineal usando factorizacion LU. " alt="" coords="229,120,401,147"/>
+<area shape="rect" id="node9" href="$classResuelveGaussSeidel.html" title="Clase para resolución del sistema lineal mediante Gauss&#45;Seidel. " alt="" coords="240,171,391,197"/>
+<area shape="rect" id="node11" href="$classResuelveInversa.html" title="Clase para resolución del sistema lineal mediante el uso de la matriz inversa. " alt="" coords="255,221,375,248"/>
+<area shape="rect" id="node12" href="$classResuelveJacobi.html" title="Clase para resolución del sistema lineal mediante Jacobi. " alt="" coords="258,272,373,299"/>
+<area shape="rect" id="node14" href="$classResuelveTridiagonal.html" title="Clase para resolución del sistema lineal tridiagonal. " alt="" coords="245,323,385,349"/>
+<area shape="rect" id="node3" href="$classResuelveCGM.html" title="Clase para resolución del sistema lineal mediante CGM standard. " alt="" coords="527,5,635,32"/>
+<area shape="rect" id="node4" href="$classResuelveCGMBandDisp.html" title="Clase para resolución del sistema lineal mediante CGM. " alt="" coords="744,5,909,32"/>
+<area shape="rect" id="node6" href="$classResuelveFactorizacionCholeskiBandDisp.html" title="Clase para resolución del sistema lineal usando factorizacion Choleski. " alt="" coords="478,57,685,98"/>
+<area shape="rect" id="node8" href="$classResuelveFactorizacionLUBandDisp.html" title="Clase para resolución del sistema lineal usando factorizacion LU. " alt="" coords="467,123,696,149"/>
+<area shape="rect" id="node10" href="$classResuelveGaussSeidelBandDisp.html" title="Clase para resolución del sistema lineal mediante Gauss&#45;Seidel. " alt="" coords="477,173,685,200"/>
+<area shape="rect" id="node13" href="$classResuelveJacobiBandDisp.html" title="Clase para resolución del sistema lineal mediante Jacobi. " alt="" coords="495,272,667,299"/>
+</map>

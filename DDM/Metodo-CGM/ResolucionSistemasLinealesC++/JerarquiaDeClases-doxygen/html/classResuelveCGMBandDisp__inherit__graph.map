@@ -1,0 +1,7 @@
+<map id="ResuelveCGMBandDisp" name="ResuelveCGMBandDisp">
+<area shape="rect" id="node2" href="$classResuelveCGM.html" title="Clase para resolución del sistema lineal mediante CGM standard. " alt="" coords="119,155,227,181"/>
+<area shape="rect" id="node3" href="$classBCGM.html" title="Clase para resolución del sistema lineal mediante CGM. " alt="" coords="53,80,116,107"/>
+<area shape="rect" id="node4" href="$classResuelveSistemaLineal.html" title="Clase para resolución del sistema lineal. " alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node5" href="$classMultOp.html" title="Clase para implementar la multiplicación de la matriz por el vector. " alt="" coords="141,80,205,107"/>
+<area shape="rect" id="node6" href="$classProductoPunto.html" title="Clase para implementar el producto punto. " alt="" coords="229,80,337,107"/>
+</map>

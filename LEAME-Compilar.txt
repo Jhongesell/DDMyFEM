@@ -1,0 +1,39 @@
+Compilar fuentes en C++ solicitando la optimizacion de codigo 
+  $ g++ -O1 *.cpp  
+Para ejecutar el programa ya compilado cuyo nombre por omision es a.out:
+  $ ./a.out 
+
+
+Compilar fuentes en C++ solicitando la optimizacion de codigo dejando el ejecutable 
+con el nombre ejemp:
+  $ g++ -O1 *.cpp -o ejemp 
+Para ejecutar el programa ya compilado:
+  $ ./ejemp 
+
+
+Para compilar y ver todos los avisos usar:
+  $ g++ -W -Wall *.cpp
+
+
+Compilar usando diversas optimizaciones (-O1, -O2 o -O3) usar:
+  $ g++ -O1 *.cpp
+
+
+Para hacer este analisis de rendimiento, hacer:
+  $ g++ -g -pg *.cpp
+  $ ./a.out 
+  $ gprof -c -z a.out > sal.txt
+el archivo sal.txt contiene el analisis de rendimiento detallado.
+
+
+Para hacer depuracion del codigo mediante el depurador grafico ddd usar:
+  $ g++ -g *.cpp
+  $ ddd ./a.out
+Puede usarse tambien los depuradores xxgdb, gdb insight, cada uno tiene sus
+pros y contras, depende del usario cual es el mas adecuado para usar
+
+
+Para rastreo de problemas con la manipulacion de memoria y punteros desbordados:
+  $ g++ -g *.cpp
+  $ valgrind --tool=memcheck --leak-check=yes --show-reachable=yes ./a.out
+
